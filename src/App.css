@@ -1,0 +1,103 @@
+body {
+  color: lightblue !important ;
+  background-color: aliceblue !important;
+}
+
+.todo-item {
+  border: 1px solid lightblue;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-content {
+  padding: 1em;
+}
+
+.add-item-row {
+  margin-top: 50px !important;
+  margin-bottom: 30px;
+}
+
+.input-box {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid lightblue;
+}
+
+.input-box:focus {
+  outline: none;
+}
+
+.button-add {
+  height: 40px;
+  width: 100%;
+  border: none;
+  background-color: lightblue;
+  color: white;
+}
+
+.button-add:hover {
+  background-color: white;
+  color: lightblue;
+  border: 2px solid lightblue;
+}
+
+.button-delete {
+  background-color: white;
+  border: 2px solid lightblue;
+  color: lightblue;
+  margin: 10px;
+}
+
+.button-delete:hover {
+  background-color: lightblue;
+  color: #ffffff;
+}
+
+.button-update {
+  background-color: white;
+  border: 2px solid lightblue;
+  color: lightblue;
+  margin: 10px;
+}
+
+.button-update:hover {
+  background-color: lightblue;
+  color: #ffffff;
+}
+
+.button-urgent {
+  background-color: white;
+  border: 2px solid lightblue;
+  color: lightblue;
+  margin: 10px;
+}
+
+.button-urgent:hover {
+  background-color: red;
+  color: #ffffff;
+}
+
+.item-complete {
+  background-color: gainsboro;
+  color: white;
+}
+
+.todo-item.completed {
+  background-color: #e0e0e0;
+  color: #888;
+  text-decoration: line-through;
+}
+
+.todo-item.urgent {
+  background-color: red; /* 긴급일 때 배경색 빨간색 */
+  color: white; /* 텍스트 색상 흰색으로 변경 */
+}
+
+.button-urgent {
+  margin-left: 10px; /* 버튼 사이의 간격 */
+  background-color: orange; /* 긴급 버튼의 배경색 */
+  color: white; /* 긴급 버튼 텍스트 색상 */
+}
